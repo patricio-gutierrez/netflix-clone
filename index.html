@@ -8,6 +8,39 @@
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
-    <main></main>
+    <main>
+      <!-- NAVBAR -->
+      <nav class="nav-bar">
+        <img src="./images/netflix-logo.png" alt="Netflix Logo" class="logo" />
+        <ul>
+          <li>
+            <select name="language" id="language" class="language-select">
+              <option value="english">English</option>
+              <option value="english">Español</option>
+            </select>
+          </li>
+          <li>
+            <button class="sign-in">Sign In</button>
+          </li>
+        </ul>
+      </nav>
+      <section class="hero">
+        <div class="overlay">
+          <h1 class="hero-heading">Unlimited movies, TV shows, and more.</h1>
+          <p class="hero-subheading">Watch anywhere. Cancel anytime.</p>
+          <!-- GET STARTED BUTTON -->
+          <div class="get-started">
+            <p class="get-started-text">
+              Ready to watch? Enter your email to create or restart your
+              membership.
+            </p>
+            <div class="get-started-form">
+              <input type="email" placeholder="Email address" class="email" />
+              <button class="get-started-button">Get Started</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
